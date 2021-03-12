@@ -1,10 +1,13 @@
-# Introduction
+## Introduction
 
 Ce repository est un projet Django de base pour suivre les tutoriels présents sur le site www.hkhan.fr
 
-Il s'agit d'un blog contenant deux modèles : Post et Category
+Il s'agit d'un blog contenant:
+  - deux modèles : Post et Category
+  - deux vues : PostListView qui liste tous les posts créés et PostDetailView qui permet d'afficher un post en particulier.
 
-## Utilisation
+
+## Installation
 1. Cloner ce repo 
 ```shell
 git clone https://github.com/hkhan404/sample_project.git
